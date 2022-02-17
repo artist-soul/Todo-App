@@ -2,70 +2,52 @@
     color: yellow;
 } */
 
-.heads{
-  color: red;
-}
-
-
-h2{
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 50px; */
-    font: bold 50px "Lucida Sans" ;
-}
-
-#heads{
-    font-weight: bold;
-}
-
-/* a{
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    word-spacing: 0.2em;
-    background-color: blue;
-    color: white;
-} */
-
-a:hover{
-    color: black;
-    background-color: yellow;
-}
-
-ul{
-    list-style: square;
-}
-
-h1{
-    border: 2px solid black;
+#demo{
     padding: 30px;
-    margin: 50px;
-}
-*{
- padding: 0;
- margin: 0;
 }
 
+li{
+    list-style: none;
+}
 
-body{
+#bg-img{
+
+        background-image: url("/image/1489423.jpg");
+        /* background-color: #cccccc; */
+       
     background-size: cover;
+    /* background-repeat: no-repeat; */
+    position: relative;
 }
 
-header{
+#todo{
+    background-image: url("/image/list1.jpg");
+    /* background-color: #cccccc; */
+   
+background-size: cover;
+/* background-repeat: no-repeat; */
+position: relative;
+}
+#sucessMessage{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: normal;
+    font-size: larger;
+    padding-left: 250px;
+    margin-left: 250px;
+    text-align:left;
+}
+
+.container{
+    /* border: 2px solid black;*/
+     margin-top:1%;
+     margin-left: 1%;
+ }
+/* header{
     background-color: black;
     height: 7em;
-}
+} */
 
-img{
-    margin-left: 10%;
-    margin-top: 10px;
-}
-
-.head-tag{
-    float: right;
-    margin-top: 43px;
-    margin-right: 55px;
-}
-
+/*
 
 .head-tag a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -135,32 +117,7 @@ img{
      margin-top:13%;
      margin-left: 1%;
  }
- .p-box{
-     border: 3px solid white;
-     width: 25%;
-     float: left;
-     margin-left: 10px;
-     height: 15em;
-     margin-top: 50px;
-     background-color: #cccc;
- }
-
- .p-box h3{
-     text-align: center;
- }
-
- .p-box p{
-
-    line-height: 1.25em;
-    text-align: justify;
- }
-
-
- .p-box a{
-     text-decoration: none;
-     color: red;
- }
-
+ 
  footer{
      background-color: black;
      color: white;
