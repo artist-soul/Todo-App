@@ -1,6 +1,6 @@
 
-function validate(){
-
+function validate(callback){
+    callback();
     var username=document.getElementById("username").value;
     var password=document.getElementById("pwd").value;
     
@@ -9,7 +9,7 @@ function validate(){
           {
             alert("Login Successful");
             return true;
-            
+          
           }
     
           else
@@ -17,7 +17,10 @@ function validate(){
             alert("invalid username or password"); 
             return false;
           }
-
 }
 
-
+function redirect(){
+ 
+  document.location.href="todolist.html";
+}
+ validate(callback);
