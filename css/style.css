@@ -21,12 +21,18 @@ li{
 }
 
 #todo{
-    background-image: url("/image/1489423.jpg");
+    /* background-image: url("/image/1489423.jpg"); */
     /* background-color: #cccccc; */
    
-background-size: cover;
+/* background-size: cover; */
 /* background-repeat: no-repeat; */
-position: relative;
+/* position: relative; */
+display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./image/1489423.jpg");
+  height: 200px;
+  background-size: cover;
+  height: 97rem;
 }
 #sucessMessage{
     font-family: Georgia, 'Times New Roman', Times, serif;
