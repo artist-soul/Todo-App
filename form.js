@@ -1,5 +1,5 @@
 
-function validate(callback){
+function validate(){
 
     var username=document.getElementById("username").value;
     var password=document.getElementById("pwd").value;
@@ -17,5 +17,7 @@ function validate(callback){
             alert("invalid username or password"); 
             return false;
           }
-    
+
 }
+
+
