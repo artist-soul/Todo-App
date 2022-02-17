@@ -24,7 +24,7 @@ li{
     background-image: url("/image/list1.jpg");
     /* background-color: #cccccc; */
    
- background-size:auto;
+ background-size:cover;
  
 /* position: relative; */
 }

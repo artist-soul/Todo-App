@@ -25,6 +25,13 @@ function ajax(){
                 // }
             });
 
+            $.each(response[i], function(key, val){
+                 if(val==true)
+                $('<li><input class="select" type="checkbox"  name="' + key + '" id="select"/>' +
+                '<label for="' + key + '"></label></li>').prop('checked', true);
+             
+             });
+
 var promise=new Promise(function(resolve,reject){
     $(document).ready(function() {
         $('li').click(function() {
