@@ -20,17 +20,23 @@ function ajax(){
                 li.find('label').text(value);
                 $('#append').append(li);
                 }
+
+                $.each(response[i], function(key, val){
+                    if(key=='completed' && response[i].completed==true)
+                    var co = $('<li><input class="complete" type="checkbox" checked disabled="disable"   name="' + key + '" id="complete"/>' +
+                    '<label for="' + key + '"></label></li>');
+                  //co.find('label').text(val);
+                    $('.complete').prop("checked",true);
+                   
+               
+                
+                });
                 // if((response[i].completed)=='true'){
                 //     $('.select').prop("checked", true);  
                 // }
             });
 
-            $.each(response[i], function(key, val){
-                 if(val==true)
-                $('<li><input type="checkbox"  name="' + val + '" checked disabled="disabled" id="select"/>' +
-                '<label for="' + val + '"></label></li>').prop('checked', true)
-             
-             });
+            
 
 var promise=new Promise(function(resolve,reject){
     $(document).ready(function() {
