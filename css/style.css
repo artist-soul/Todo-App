@@ -20,6 +20,14 @@ li{
     position: relative;
 }
 
+.todo{
+    background-image: url("image/coffee-list.jpg");
+   
+ background-size:cover;
+ 
+position: relative;
+}
+
 
 #sucessMessage{
     font-family: Georgia, 'Times New Roman', Times, serif;
