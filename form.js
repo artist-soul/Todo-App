@@ -18,7 +18,7 @@ function validate(callback){
             return false;
           }
 
- callback();
+ 
 }
 
 function redirect(){
