@@ -27,8 +27,8 @@ function ajax(){
 
             $.each(response[i], function(key, val){
                  if(val==true)
-                $('<li><input class="select" type="checkbox"  name="' + key + '" id="select"/>' +
-                '<label for="' + key + '"></label></li>').prop('checked', true);
+                $('<li><input type="checkbox"  name="' + val + '" checked disabled="disabled" id="select"/>' +
+                '<label for="' + val + '"></label></li>').prop('checked', true)
              
              });
 
